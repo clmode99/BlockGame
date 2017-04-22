@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ゲーム">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;h</Extensions>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="リソース\画像">
+      <UniqueIdentifier>{655e5925-f892-4d8e-9ffd-a9288677e783}</UniqueIdentifier>
+      <Extensions>bmp;png;gif;jpg;jpeg;jpe;cur;dlg;rc2;rct;bin;rgs;resx;tiff;tif;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース\音">
+      <UniqueIdentifier>{0bbc1464-887f-45a8-9777-15cbd291435f}</UniqueIdentifier>
+      <Extensions>wav;ogg;mp3</Extensions>
+    </Filter>
+    <Filter Include="リソース\アイコン">
+      <UniqueIdentifier>{69b206f7-9aa0-43f7-b91f-2f5604903f67}</UniqueIdentifier>
+      <Extensions>rc;ico;</Extensions>
+    </Filter>
+    <Filter Include="ライブラリ">
+      <UniqueIdentifier>{3e1e3eaf-8a7a-4312-adfd-517513bb4b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ\DxLibヘルパー">
+      <UniqueIdentifier>{7734c7ef-fb20-4977-b712-bf0712b1778c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ\SpriteStudio">
+      <UniqueIdentifier>{c849d8e9-c22f-4b09-87f9-3132370209aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ライブラリ\ユーティリティ">
+      <UniqueIdentifier>{daae40c7-ff74-47e6-98c1-472de706acab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Game\GameMain.cpp">
+      <Filter>ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Libralies\DxLibHelper\Mathematics.cpp">
+      <Filter>ライブラリ\DxLibヘルパー</Filter>
+    </ClCompile>
+    <ClCompile Include="Libralies\DxLibHelper\FrameTimer.cpp">
+      <Filter>ライブラリ\DxLibヘルパー</Filter>
+    </ClCompile>
+    <ClCompile Include="Libralies\SpriteStudio\SpriteStudioPlayer.cpp">
+      <Filter>ライブラリ\SpriteStudio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\GameMain.h">
+      <Filter>ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Icon\Icon.h">
+      <Filter>リソース\アイコン</Filter>
+    </ClInclude>
+    <ClInclude Include="Libralies\DxLibHelper\Mathematics.h">
+      <Filter>ライブラリ\DxLibヘルパー</Filter>
+    </ClInclude>
+    <ClInclude Include="Libralies\DxLibHelper\FrameTimer.h">
+      <Filter>ライブラリ\DxLibヘルパー</Filter>
+    </ClInclude>
+    <ClInclude Include="Libralies\GameLib.h">
+      <Filter>ライブラリ</Filter>
+    </ClInclude>
+    <ClInclude Include="Libralies\SpriteStudio\SpriteStudioPlayer.h">
+      <Filter>ライブラリ\SpriteStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Libralies\Utilities\MemoryLeakDetector.h">
+      <Filter>ライブラリ\ユーティリティ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\Icon.ico">
+      <Filter>リソース\アイコン</Filter>
+    </Image>
+    <Image Include="Resources\Images\SpriteStudioLogo.png">
+      <Filter>リソース\画像</Filter>
+    </Image>
+    <Image Include="Resources\Images\TridentLogo.png">
+      <Filter>リソース\画像</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Icon\Icon.rc">
+      <Filter>リソース\アイコン</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sounds\SE00.ogg">
+      <Filter>リソース\音</Filter>
+    </None>
+    <None Include="Resources\Images\SpriteStudioLogo.ssbp">
+      <Filter>リソース\画像</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+#include "resource.h"
+
+IDI_ICON1 ICON "dankuzu.ico"
+IDI_ICON2 ICON "dankuzu.ico"

@@ -1,0 +1,24 @@
+このゲームの一部の素材は、以下のフリー素材を使用しています
+
+☆Images
+・宝箱(block_box.png)
+フリーイラストカット素材制作工房 Illustcut.com(http://illustcut.com/)…リンク不要
+
+☆SE
+・ゲームクリア(clear.mp3)
+フリー音素材 01SoundEarth(http://www.01earth.net/sound)…リンク必須
+
+・ゲームオーバー(over.mp3)、ジャンプ(jump.mp3)、石・端に当たったとき(stone_touch.mp3)、ドアを開けたとき(door_open.mp3)
+無料効果音で遊ぼう！(http://taira-komori.jpn.org/)…リンク不要
+
+・宝箱開けたとき(box_get.mp3)、ドアが開かないとき(door_touch.mp3)
+効果音素材：ポケットサウンド(http://pocket-se.info/)…リンク必須
+
+・決定音(decision.mp3)
+効果音ラボ(http://soundeffect-lab.info/)…リンク不要
+
+・砂？に当たるとき(sand.mp3)
+フリーBGM DOVA-SYNDROME(https://dova-s.jp/)…リンク不要
+
+以上の素材を使わせていただきました
+提供元のみなさま、ありがとうございます
